@@ -10,7 +10,7 @@
 
 ##### **發票**
 
-- 申請發票
+- 申請[專案發票](/employee/payment/create-invoice-project) / [非專案發票](/employee/payment/create-invoice-none-project)
 
 ##### **專案**
 

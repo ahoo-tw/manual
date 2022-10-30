@@ -26,7 +26,7 @@ module.exports = {
           collapsable: true,
           children: [
             {
-              text: "建立專案",
+              text: "建立專案（PM）",
               link: "/employee/project/create-project/",
             },
             {

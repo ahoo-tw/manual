@@ -11,22 +11,22 @@
 
 ##### **發票**
 
-- 開立發票
-- 確認入帳
+- [開立發票](invoice/invoice-pass/)
+- [確認入帳](invoice/invoice-done/)
 
 ##### **財務管理與設定**
 
-- 零用現金管理
-- 財務收支管理
-- 人事薪資
-- 銀行帳戶設定
-- 收支項目設定
-- 營收目標設定
-- 公司資訊設定
-- 匯款明細查詢
-- 發票字軌管理
+- [零用現金管理](finance/petty-cash)
+- [財務收支管理](finance/variable-statement)：登載非營業交易事項
+- [人事薪資](finance/salary)
+- [銀行帳戶設定](finance/bank-account)
+- [收支項目設定](finance/trade-statement)
+- [營收目標設定](finance/revenue-goal)
+- [公司資訊設定](finance/company-info)
+- [匯款明細查詢](finance/remittances)：登載匯費
+- [發票字軌管理](finance/invoice-serial-number)
 
 ##### **小幫手**
 
-- 收支日曆
-- 幣別與匯率設定
+- [收支日曆](finance/payment-calendar)：檢視帳務日程安排，快速查詢過去、未來日期的收支情形。
+- [幣別與匯率設定](finance/currency)：檢視即期匯率
