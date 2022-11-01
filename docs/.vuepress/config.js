@@ -26,28 +26,28 @@ module.exports = {
           collapsable: true,
           children: [
             {
-              text: "建立專案（PM）",
-              link: "/employee/project/create-project/",
-            },
-            {
-              text: "修改分期",
-              link: "/employee/project/edit-project/",
-            },
-            {
-              text: "搜尋",
-              link: "/employee/project/search/",
-            },
-            {
               text: "建立客戶資料",
               link: "/employee/project/vendor/",
             },
             {
-              text: "委外管理-廠商",
+              text: "建立委外廠商資料",
               link: "/employee/project/vd/",
             },
             {
-              text: "委外管理-個人/工作室",
+              text: "建立委外個人/工作室資料",
               link: "/employee/project/os/",
+            },
+            {
+              text: "建立專案(PM)",
+              link: "/employee/project/create-project/",
+            },
+            {
+              text: "修改專案分期(PM)",
+              link: "/employee/project/edit-project/",
+            },
+            {
+              text: "搜尋專案(PM)",
+              link: "/employee/project/search/",
             },
           ],
         },

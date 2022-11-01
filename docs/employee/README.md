@@ -14,6 +14,7 @@
 
 ##### **專案**
 
-- 建立專案
-- 建立客戶資料
-- 建立委外廠商資料
+- [建立專案(PM)](/employee/project/create-project)
+- [建立客戶資料](/employee/project/vendor)
+- [建立委外廠商資料](/employee/project/vd)
+- [建立委外客人/工作室資料](/employee/project/os)
