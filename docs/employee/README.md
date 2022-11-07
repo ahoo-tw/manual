@@ -10,11 +10,15 @@
 
 ##### **發票**
 
-- 申請[專案發票](/employee/payment/create-invoice-project) / [非專案發票](/employee/payment/create-invoice-none-project)
+- 申請[專案發票](/employee/invoice/create-invoice-project) / [非專案發票](/employee/invoice/create-invoice-none-project)
 
 ##### **專案**
 
-- [建立專案(PM)](/employee/project/create-project)
 - [建立客戶資料](/employee/project/vendor)
 - [建立委外廠商資料](/employee/project/vd)
-- [建立委外客人/工作室資料](/employee/project/os)
+- [建立委外客人/工作室資料](/employee/project/os)  
+  <br>
+- [建立專案(PM)](/employee/project/create-project)
+- [修改專案分期(PM)](/employee/project/edit-project)
+- [搜尋專案(PM)](/employee/project/search)
+- [匯出 Excel(PM)](/employee/project/excel)

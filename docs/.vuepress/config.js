@@ -60,7 +60,7 @@ module.exports = {
           collapsable: true,
           children: [
             {
-              text: "頁面總覽",
+              text: "列表介紹",
               link: "/employee/payment/basic/",
             },
             {
@@ -126,7 +126,7 @@ module.exports = {
           collapsable: true,
           children: [
             {
-              text: "頁面介紹",
+              text: "列表介紹",
               link: "/finance/payment/basic/",
             },
             {
@@ -186,16 +186,32 @@ module.exports = {
           collapsable: true,
           children: [
             {
-              text: "零用現金管理",
-              link: "/finance/finance/petty-cash/",
-            },
-            {
               text: "財務收支管理",
               link: "/finance/finance/variable-statement/",
             },
             {
+              text: "零用現金管理",
+              link: "/finance/finance/petty-cash/",
+            },
+            {
               text: "人事薪資",
               link: "/finance/finance/salary/",
+            },
+            {
+              text: "匯款明細查詢",
+              link: "/finance/finance/remittances/",
+            },
+            {
+              text: "經常性支出設定",
+              link: "/finance/finance/current-expenditure/",
+            },
+            {
+              text: "特支專案設定",
+              link: "/finance/finance/special-disbursement-project/",
+            },
+            {
+              text: "發票字軌管理",
+              link: "/finance/finance/invoice-serial-number/",
             },
             {
               text: "銀行帳戶設定",
@@ -210,16 +226,12 @@ module.exports = {
               link: "/finance/finance/revenue-goal/",
             },
             {
+              text: "審核流程設定",
+              link: "/finance/finance/audit-flow/",
+            },
+            {
               text: "公司資訊設定",
               link: "/finance/finance/company-info/",
-            },
-            {
-              text: "匯款明細查詢",
-              link: "/finance/finance/remittances/",
-            },
-            {
-              text: "發票字軌管理",
-              link: "/finance/finance/invoice-serial-number/",
             },
           ],
         },

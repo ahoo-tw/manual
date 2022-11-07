@@ -1,7 +1,7 @@
 # 匯出發票 Excel
 
 :::info 有條件匯出部分資料
-當有限定範圍時，請先[**搜尋發票**](/employee/invoice/search)。
+當有限定範圍時，請先[**搜尋發票**](/finance/invoice/search)。
 :::
 
 - 點選右上角『匯出 Excel』按鈕
