@@ -13,8 +13,8 @@ module.exports = {
     iconAssets: "fontawesome",
     navbar: [
       { text: "員工", link: "/employee/" },
-      { text: "行政財務", link: "/finance/" },
-      { text: "老闆", link: "/boss/" },
+      { text: "行政", link: "/finance/" },
+      { text: "財務", link: "/boss/" },
     ],
     sidebar: {
       // ----------------------------------------
@@ -118,7 +118,7 @@ module.exports = {
         },
       ],
       // ----------------------------------------
-      // 行政財務
+      // 行政
       // ----------------------------------------
       "/finance/": [
         {
@@ -141,10 +141,7 @@ module.exports = {
               text: "審核與填寫付款明細",
               link: "/finance/payment/detail/",
             },
-            {
-              text: "審核與確認付款",
-              link: "/finance/payment/done/",
-            },
+
             {
               text: "搜尋請款單",
               link: "/finance/payment/search/",
@@ -178,6 +175,26 @@ module.exports = {
             {
               text: "匯出Excel",
               link: "/finance/invoice/excel/",
+            },
+          ],
+        },
+        {
+          text: "[財務]",
+          collapsable: true,
+          children: [],
+        },
+      ],
+      // ----------------------------------------
+      // 財務
+      // ----------------------------------------
+      "/boss/": [
+        {
+          text: "[請款]",
+          collapsable: true,
+          children: [
+            {
+              text: "審核與確認付款",
+              link: "/finance/payment/done/",
             },
           ],
         },
@@ -232,63 +249,6 @@ module.exports = {
             {
               text: "公司資訊設定",
               link: "/finance/finance/company-info/",
-            },
-          ],
-        },
-      ],
-      // ----------------------------------------
-      // 老闆
-      // ----------------------------------------
-      "/boss/": [
-        {
-          text: "[專案]",
-          collapsable: true,
-          children: [
-            {
-              text: "建立專案",
-              link: "/boss/project/create-project/",
-            },
-          ],
-        },
-        {
-          text: "[分析]",
-          collapsable: true,
-          children: [
-            {
-              text: "收支總覽",
-              link: "/boss/analysis/overview/",
-            },
-            {
-              text: "存款總覽",
-              link: "/boss/analysis/deposit/",
-            },
-            {
-              text: " 現金流量分析",
-              link: "/boss/analysis/cash/",
-            },
-            {
-              text: " 收入分析",
-              link: "/boss/analysis/income/",
-            },
-            {
-              text: "支出分析",
-              link: "/boss/analysis/payout/",
-            },
-            {
-              text: " 財務收支分析",
-              link: "/boss/analysis/financial-analysis-script/",
-            },
-            {
-              text: " 同期比較",
-              link: "/boss/analysis/comparison/",
-            },
-            {
-              text: " 客戶貢獻",
-              link: "/boss/analysis/vendor/",
-            },
-            {
-              text: "綜合損益表",
-              link: "/boss/income-statement/",
             },
           ],
         },

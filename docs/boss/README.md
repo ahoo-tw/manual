@@ -1,23 +1,26 @@
-# 老闆、主管  
+# 財務
 
 :::danger 主要負責內容
-為公司營運做決策，查看各項分析圖表內容。  
+最後確認把關，協助各項財務管理。  
 :::
 
+##### **請款**
 
-##### **請款** 
-- 審核請款單
+- [確認付款](/finance/payment/done/)
 
-##### **專案** 
-- 專案總管理
+##### **財務**
 
-##### **分析**  
-- 收支總覽  
-- 存款總覽
-- 現金流量分析
-- 收入分析
-- 支出分析
-- 財務收支分析
-- 同期比較
-- 客戶貢獻
-- 綜合損益表
+##### **財務管理與設定**
+
+- [財務收支管理](finance/variable-statement)：登載非營業交易事項
+- [零用現金管理](finance/petty-cash)
+- [人事薪資](finance/salary)
+- [匯款明細查詢](finance/remittances)：登載匯費
+- [發票字軌管理](finance/invoice-serial-number)
+
+- [特支專案設定](finance/special-disbursement-project)
+- [經常性支出設定](finance/current-expenditure)
+- [銀行帳戶設定](finance/bank-account)
+- [收支項目設定](finance/trade-statement)
+- [營收目標設定](finance/revenue-goal)
+- [公司資訊設定](finance/company-info)
