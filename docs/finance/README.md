@@ -1,19 +1,16 @@
-# 行政
-
-:::warning 主要負責內容  
-為正確的金流把關，協助審核。
-:::
+# 財務
 
 ##### **請款**
 
-- [填寫付款明細](payment/detail)
+- [確認付款](/finance/payment/done/)
 
 ##### **發票**
 
-- [開立發票](invoice/invoice-pass/)
-- [確認入帳](invoice/invoice-done/)
+- [發票入帳](/finance/invoice/invoice-done/)
 
-##### **小幫手**
+##### **財務**
 
-- [收支日曆](finance/payment-calendar)：檢視帳務日程安排，快速查詢過去、未來日期的收支情形。
-- [幣別與匯率設定](finance/currency)：檢視即期匯率
+- [財務收支管理](finance/variable-statement)：登載非營業交易事項
+- [零用現金管理](finance/petty-cash)
+- [人事薪資](finance/salary)
+- [匯款明細查詢](finance/remittances)：登載匯費
