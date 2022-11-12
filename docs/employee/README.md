@@ -1,15 +1,18 @@
 # 員工
 
+##### **專案**
+
+- [客戶管理](/employee/project/vendor/)
+- [委外管理](/employee/project/outsourcing/)
+
+- [專案管理](/employee/project/create-project/)
+
 ##### **請款單申請**
 
-- [建立客戶資料](/employee/project/vendor)
-- [建立委外廠商資料](/employee/project/vd)
-- [建立委外個人/工作室資料](/employee/project/os)
-
-- [申請請款單](/employee/payment/create-payment-normal)
+- [申請請款單](/employee/payment/create-payment-normal/)
 - [自行退回再編輯](/employee/payment/retrieve-payment/)
 
-##### **申請發票**
+##### **申請開立發票**
 
-- [建立專案](/employee/project/create-project)
-- [申請發票](/employee/invoice/create-invoice-project)
+- [申請開立發票](/employee/invoice/create-invoice/)
+- [自行退回再編輯](/employee/invoice/retrieve-invoice/)

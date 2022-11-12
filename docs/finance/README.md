@@ -2,6 +2,7 @@
 
 ##### **請款**
 
+- [財務單](/finance/payment/)
 - [確認付款](/finance/payment/done/)
 
 ##### **發票**
@@ -10,7 +11,4 @@
 
 ##### **財務**
 
-- [財務收支管理](finance/variable-statement)：登載非營業交易事項
-- [零用現金管理](finance/petty-cash)
-- [人事薪資](finance/salary)
-- [匯款明細查詢](finance/remittances)：登載匯費
+- [填寫匯費](finance/remittances)

@@ -1,27 +1,23 @@
 # 開立發票
 
-![發票開立](./invoice-pass.gif)
+首頁-待辦發票  
+![發票開立](./index.png)
 
-## Step 1：點選發票申請單
+## Step 1：點選待開立發票申請單
 
-## Step 2：點選『開立發票』
+## Step 2：核對內容與資訊
 
-## Step 3：檢查資料正確
-
-若內容錯誤，可使用『退件』  
+如果資料有錯誤，按 **『退件』** 按鈕  
+寫明原因，**送出退件** ，將發票退回申請人。  
 ![退件](./invoice-retrieve.png)
 
-## Step 4：填寫發票日期
+## Step 3：點選『開立發票』
 
-## Step 5：填寫發票號碼
+選擇日期、點選預存[發票字軌](/finance/finance/invoice-serial-number)KEY 完整號碼。  
+收入項目可滑鼠點選或直接輸入關鍵字。
 
-預先儲存好的[發票字軌](/finance/finance/invoice-serial-number)，將顯示在此  
-點選即可自動填入前 7 碼，手動補上末 3 碼。
+![開立](./pass.gif)
 
-## Step 6：選擇收支項目
+## Step 4：送出開立
 
-## Step 7：送出開立
-
-![開立](./invoice-pass.png)
-
-發票狀態　 → 　待入帳
+![送出](./end.png)

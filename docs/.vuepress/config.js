@@ -30,8 +30,8 @@ module.exports = {
               link: "/employee/project/vendor/",
             },
             {
-              text: "委外管理-廠商/個人",
-              link: "/employee/project/vd/",
+              text: "委外管理",
+              link: "/employee/project/outsourcing/",
             },
             {
               text: "專案管理(PM)",
@@ -61,12 +61,12 @@ module.exports = {
               text: "",
               children: [
                 {
-                  text: "申請發票",
-                  link: "/employee/invoice/create-invoice-project/",
+                  text: "申請開立發票",
+                  link: "/employee/invoice/create-invoice/",
                 },
 
                 {
-                  text: "自行退回",
+                  text: "自行退回再編輯",
                   link: "/employee/invoice/retrieve-invoice/",
                 },
               ],
