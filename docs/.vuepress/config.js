@@ -22,26 +22,27 @@ module.exports = {
       // ----------------------------------------
       "/employee/": [
         {
-          text: "[專案]",
-          collapsable: true,
+          text: "專案",
+          collapsable: false,
           children: [
+            {
+              text: "專案管理",
+              link: "/employee/project/create-project/",
+            },
             {
               text: "客戶管理",
               link: "/employee/project/vendor/",
             },
+
             {
               text: "委外管理",
               link: "/employee/project/outsourcing/",
             },
-            {
-              text: "專案管理(PM)",
-              link: "/employee/project/create-project/",
-            },
           ],
         },
         {
-          text: "[請款單]",
-          collapsable: true,
+          text: "請款單",
+          collapsable: false,
           children: [
             {
               text: "新增請款單",
@@ -54,8 +55,8 @@ module.exports = {
           ],
         },
         {
-          text: "[發票]",
-          collapsable: true,
+          text: "發票",
+          collapsable: false,
           children: [
             {
               text: "",
@@ -79,8 +80,8 @@ module.exports = {
       // ----------------------------------------
       "/executive/": [
         {
-          text: "[請款單]",
-          collapsable: true,
+          text: "請款單",
+          collapsable: false,
           children: [
             {
               text: "請款單付款",
@@ -89,22 +90,12 @@ module.exports = {
           ],
         },
         {
-          text: "[發票]",
-          collapsable: true,
+          text: "發票",
+          collapsable: false,
           children: [
             {
               text: "開立發票",
               link: "/executive/invoice/invoice-pass/",
-            },
-          ],
-        },
-        {
-          text: "[財務]",
-          collapsable: true,
-          children: [
-            {
-              text: "發票字軌管理",
-              link: "/executive/finance/invoice-serial-number/",
             },
           ],
         },
@@ -114,8 +105,8 @@ module.exports = {
       // ----------------------------------------
       "/finance/": [
         {
-          text: "[請款]",
-          collapsable: true,
+          text: "請款",
+          collapsable: false,
           children: [
             {
               text: "確認付款",
@@ -128,8 +119,8 @@ module.exports = {
           ],
         },
         {
-          text: "[發票]",
-          collapsable: true,
+          text: "發票",
+          collapsable: false,
           children: [
             {
               text: "發票入帳",
@@ -138,12 +129,16 @@ module.exports = {
           ],
         },
         {
-          text: "[財務]",
-          collapsable: true,
+          text: "財務",
+          collapsable: false,
           children: [
             {
               text: "填寫匯費",
               link: "/finance/finance/remittances/",
+            },
+            {
+              text: "發票字軌管理",
+              link: "/finance/finance/invoice-serial-number/",
             },
           ],
         },

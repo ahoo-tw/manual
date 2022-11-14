@@ -12,3 +12,4 @@
 ##### **財務**
 
 - [填寫匯費](finance/remittances)
+- [發票字軌設定](invoice/invoice-pass/)
